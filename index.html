@@ -330,7 +330,8 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate" action="POST">
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate" action="POST" data-netlify-recaptcha="true"
+  data-netlify="true">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4 mb-3" id="name" placeholder="Your Name"
@@ -410,10 +411,11 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Contact Javascript File -->
+    <!-------
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
+     ------------>
+    <!-- Bootstrap Template Javascript -->
     <script src="js/main.js"></script>
 </body>
 
